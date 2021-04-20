@@ -7,41 +7,45 @@
 			
 				
 		<title>My Favourite Beaches</title>
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
 	</head>
 
-	<body>
-		<p >
+
+		<div class = "navbar"> <!--Start of navigation bar-->
 				<a href="https://www.tourismpei.com/pei-festivals-and-events" target="_blank"> Festivals and Events </a>
 				<a href="https://www.tourismpei.com/about-pei" target="_blank"> About PEI </a>
-				Planning a Trip:  <!-- make into a drop down -->
-					<a href="https://www.tourismpei.com/pei-package-offers" target="_blank">Vacation Packages</a>
+				<div class = "dropdown"><button class = "dropbtn">Planning a Trip:</button> <!-- drop down button-->
+					<div class = "dropdown-content"> <!--Drop down content-->
+						<a href="https://www.tourismpei.com/pei-package-offers" target="_blank">Vacation Packages</a>
 					<a href="https://www.tourismpei.com/pei-accommodations" target="_blank">Where to Stay</a>
 					<a href="https://www.tourismpei.com/pei-things-to-do" target="_blank">What to do</a>
-			
-		</p>  <!-- end of navigation bar -->
+				</div>
+			</div>
+		</div>  <!-- end of navigation bar -->
 		
 		
-		<p>
+		<h1> <!--header-->
 			My Favourite Beaches
 			
-		</p>  <!-- end of header --> 
+		</h1> 
 		
 		
-		<p >
+		<div id = "left"> <!--Start of left colom-->
 			LINKS <br>  
-			<!-- Make Links into an unordered list -->
-			<a href="https://www.tourismpei.com/pei-festivals-and-events" target="_blank"> 10 Quirky Things You Didn’t Know About PEI </a>
-			<a href="https://www.tourismpei.com/about-pei" target="_blank">Environment</a>
-			<a href="https://www.tourismpei.com/pei-package-offers" target="_blank">Getting Here</a>
-			<a href="https://www.tourismpei.com/pei-accommodations" target="_blank">Important Travel Information</a>
-			<a href="https://www.tourismpei.com/pei-things-to-do" target="_blank">Island Webcams</a>
-			
-		</p> <!-- end of left column -->
-		
-		
-		<p >
-			<img src="Media/beach1.jpg" alt="Beautiful beach" width = "200px"> 
-			
+			<ul> <!--A list of links-->
+				<li><a href="https://www.tourismpei.com/pei-festivals-and-events" target="_blank"> 10 Quirky Things You Didn’t Know About PEI </a></li>
+				<li><a href="https://www.tourismpei.com/about-pei" target="_blank">Environment</a></li>
+				<li><a href="https://www.tourismpei.com/pei-package-offers" target="_blank">Getting Here</a></li>
+				<li><a href="https://www.tourismpei.com/pei-accommodations" target="_blank">Important Travel Information</a></li>
+				<li><a href="https://www.tourismpei.com/pei-things-to-do" target="_blank">Island Webcams</a></li>
+			</ul>
+		</div> <!-- End of left column -->
+
+		<div id = "center"> <!--Start of center column-->
+			<img id = "frame" src="Media/beach1.jpg" alt="Beautiful beach"> 
+							
 			ABOUT OUR BEACHES <br>
 			With beaches that sing and others that stun visitors with their pristine blend of rustic solitude and splendid red sand, Prince Edward Island's sandy expanses continue to receive raves from all over the world, including a nomination as one of Canada's natural wonders.
 			<br>
@@ -67,25 +71,21 @@
 			"The beaches are so nice, just close your eyes and imagine a very hot day and feel the refreshing wind blowing gently over your skin," said Marie, a tourist from Bromont, Que. "That is what I call a natural spa."
 			<br>
 			Others dream of returning. "PEI is the most beautiful, clean province we have seen, and the beaches are something us in Alberta only see in pictures," says Lori from Edmonton. Lori says she'll return for another PEI vacation soon. Such is the draw of PEI's beautiful beaches. And one thing is certain - she won't be alone.
-			
-		</p> <!-- end of center column -->
-		
-		
-		<p >
+							
+		</div> <!-- End of center column -->
+
+		<div id = "right"> <!--Start of right column-->
 			On our Island province you are never far from the ocean and one of our numerous spectacular beaches. From the red sand beaches on the south shore to the white sand beaches on the north shore, Prince Edward Island offers a variety of unique and enjoyable beach experiences
-			<img src="Media/riptide.jpg" width = "200px" alt ="Riptide Info">
+			<img src="Media/riptide.jpg" alt ="Riptide Info" id = "riptide-img">
 			<br>
-			Swimming in the ocean is very different from swimming in a pool or lake. The strength and force of even small ocean waves can surprise beach goers who are unfamiliar with the power of the sea. When particular surf conditions are present at some of our beaches, rip currents can occur.
-			
-			
-			
-		</p> <!-- end of right column -->
-		
-				
-		<p >
+			Swimming in the ocean is very different from swimming in a pool or lake. The strength and force of even small ocean waves can surprise beach goers who are unfamiliar with the power of the sea. When particular surf conditions are present at some of our beaches, rip currents can occur.text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text.
+						
+		</div> <!-- End of right column -->
+
+		<div id = "bottom"> <!--Start of footer-->
 		   <a href="https://www.tourismpei.com/contact-us-page" target = "_blank" >Contact Us </a> 	
 		   2020 Prince Edward Island Tourism. All Rights Reserved.
-		</p> <!-- end of footer -->
+		</div> <!-- End of footer -->
 				
 	</body>
 
